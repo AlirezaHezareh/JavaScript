@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "../redovisa"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "editor.tabCompletion": "on",
+        "diffEditor.codeLens": true
+    }
+}
