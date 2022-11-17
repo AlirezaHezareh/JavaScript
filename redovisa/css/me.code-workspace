@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../webtec/me"
+		},
+		{
+			"path": "../../../../python/me"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../design/me"
+		},
+		{
+			"path": "../../../../git"
+		}
+	],
+	"settings": {}
+}
