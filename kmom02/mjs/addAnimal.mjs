@@ -1,4 +1,4 @@
-import { europeanAnimals, americanAnimals, africanAnimals } from "./animals.mjs";
+import { europeanAnimals, americanAnimals, africanAnimals } from "../animals.mjs";
 
 /**
  *  * @module addAnimals
@@ -7,7 +7,7 @@ import { europeanAnimals, americanAnimals, africanAnimals } from "./animals.mjs"
  * @descripsion adds animal by continent
  *
  */
-function addAnimal (continent, animal) {
+function addAnimal(continent, animal) {
     /*
         let euro = continent.includes("europe");
         europeanAnimals.push(animal);
@@ -31,9 +31,9 @@ function addAnimal (continent, animal) {
         return americanAnimals + africanAnimals + europeanAnimals;
     }
 }
-console.log(addAnimal("europe", "cat"));
+/* console.log(addAnimal("europe", "cat"));
 
 console.log(addAnimal("africa", "elefant"));
-console.log(addAnimal("", "hel"));
+console.log(addAnimal("", "hel")); */
 
 export { addAnimal };

@@ -3,7 +3,7 @@
  */
 
 import { prettyPrint } from "./prettyPrint.mjs";
-import { addAnimal } from "./addAnimal.mjs";
+import { addAnimal } from "./mjs/addAnimal.mjs";
 import { sortAnimals } from "./report.mjs";
 
 /* let pig = addAnimal("europe", "pig") */
