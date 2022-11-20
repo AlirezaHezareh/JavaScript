@@ -61,12 +61,18 @@ function removeAnimal(animal, continent) {
  */
 function getAnimalsByContinent(animal, continent) {
     console.log(animal, continent);
-};
-
-function allAnimals(continent) {
     if (continent = "europe") {
         prettyPrint(europeanAnimals)
     }
+};
+/** 
+ * @function allAnimals
+ * @param continent prettyPrint all animals
+ *  */
+function allAnimals() {
+    var euro_africa = europeanAnimals.concat(africanAnimals)
+    var ameuro_africa = euro_africa.concat(americanAnimals)
+    return ameuro_africa
 
 }
 
